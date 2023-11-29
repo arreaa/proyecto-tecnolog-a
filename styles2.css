@@ -1,0 +1,63 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, li, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #005C53;
+}
+
+header, footer {
+    background-color: #005C53;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Color del borde */
+    color: #fff; /* Color del texto */
+    background-color: #3498db; /* Color de fondo */
+    border-radius: 5px; /* Borde redondeado */
+    transition: background-color 0.3s, color 0.3s; /* Transición de colores al pasar el ratón */
+}
+
+
+button:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    color: #fff;
+}
